@@ -1,0 +1,13 @@
+#!/bin/bash
+
+#define PAF abricot
+
+echo "This should be a fruit: PAF"
+
+#undef PAF
+
+echo "PAF should be undefined now !"
+
+#define SQUARE(a) a*a
+
+echo The square of 3 is SQUARE(3)
